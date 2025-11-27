@@ -76,6 +76,7 @@ SematicProject/
 │     ├── mcp.json
 │
 └── output.csv
+<img width="564" height="794" alt="image" src="https://github.com/user-attachments/assets/e16ed139-2648-43f0-aca7-674ec3de6b2a" />
 
 How to Use
 Predict a column type
