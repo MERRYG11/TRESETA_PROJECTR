@@ -59,23 +59,7 @@ parse_file	Parses the file and produces output.csv
 The interface follows a simple JSON-over-stdin/stdout pattern as described in the MCP specification.
 
 Project Structure
-SematicProject/
-│
-├── data/
-│     ├── phone.csv
-│     ├── company.csv
-│     ├── dates.csv
-│     ├── countries.txt
-│     ├── legal.txt
-│
-├── predict.py
-├── parser.py
-│
-├── mcp_server/
-│     ├── server.py
-│     ├── mcp.json
-│
-└── output.csv
+
 <img width="564" height="794" alt="image" src="https://github.com/user-attachments/assets/e16ed139-2648-43f0-aca7-674ec3de6b2a" />
 
 How to Use
