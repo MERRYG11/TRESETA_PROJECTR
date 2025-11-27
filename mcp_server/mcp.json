@@ -1,0 +1,52 @@
+{
+  "name": "semantic-column-mcp-server",
+  "description": "MCP server exposing semantic column prediction and parsing tools over project CSV files.",
+  "version": "1.0.0",
+  "command": [
+    "python",
+    "mcp_server/server.py"
+  ],
+  "tools": [
+    {
+      "name": "list_files",
+      "description": "List available CSV data files in the project.",
+      "input_schema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "column_prediction",
+      "description": "Predict the semantic type of a column in a CSV file.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "Path to the CSV file, relative to the project root (e.g. 'data/phone.csv')."
+          },
+          "column_name": {
+            "type": "string",
+            "description": "Name of the column to classify."
+          }
+        },
+        "required": ["file_path", "column_name"]
+      }
+    },
+    {
+      "name": "parse_file",
+      "description": "Parse the best PhoneNumber or CompanyName column in a CSV using parser.py and return the output file path.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "Path to the CSV file, relative to the project root (e.g. 'data/phone.csv')."
+          }
+        },
+        "required": ["file_path"]
+      }
+    }
+  ]
+}
