@@ -1,3 +1,6 @@
+https://github.com/user-attachments/assets/9dfc33f9-8d99-4b6f-82fb-e988942e80b1
+
+
 Semantic Column Classifier
 
 This project provides a small toolset for identifying the type of data stored in a CSV column and parsing it into a structured format. It also exposes these features through a lightweight MCP server so they can be called programmatically.
