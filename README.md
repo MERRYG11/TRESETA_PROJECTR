@@ -71,6 +71,7 @@ python parser.py --input data/phone.csv
 
 Run the MCP server
 python mcp_server/server.py
+https://github.com/user-attachments/assets/f0f4362d-e879-47f2-982f-8b3b7de375c8
 
 
 Then send JSON requests such as:
