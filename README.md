@@ -71,7 +71,6 @@ python parser.py --input data/phone.csv
 
 Run the MCP server
 python mcp_server/server.py
-https://github.com/user-attachments/assets/f0f4362d-e879-47f2-982f-8b3b7de375c8
 
 
 Then send JSON requests such as:
@@ -83,3 +82,5 @@ Notes
 The classification and parsing logic is rule-based for consistency and ease of inspection.
 
 All outputs are deterministic and do not rely on external services or trained models.
+
+https://github.com/user-attachments/assets/f0f4362d-e879-47f2-982f-8b3b7de375c8
